@@ -13,7 +13,10 @@ import java.util.Scanner;
  */
 
 public class TypeData {
-	
+	/**
+	 * 
+	 * @param num
+	 */
 	public void typedata(double num) {
 		if(num >= -128 && num <= 127) {
 			System.out.println((long)num + " can be fitted in:");
@@ -40,6 +43,11 @@ public class TypeData {
 		}
 	}
 	
+	/**
+	 * 
+	 * @param args Unused.
+	 * @param num The number entered
+	 */
 	public static void main(String args[]) {
 		
 		try (Scanner input = new Scanner(System.in)) {
